@@ -1,0 +1,2 @@
+﻿colorshaderclass.obj : error LNK2001: _D3DCompileFromFile@36 외부 기호를 확인할 수 없습니다.
+C:\Users\Glacier's Laptop\source\repos\DirectX11\Release\DirectX11.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
