@@ -140,6 +140,8 @@
     <ClInclude Include="..\..\..\..\Glacier%27s Laptop\source\repos\DirectX11\systemclass.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\..\..\..\Glacier%27s Laptop\source\repos\DirectX11\color.ps" />
+    <None Include="..\..\..\..\Glacier%27s Laptop\source\repos\DirectX11\color.vs" />
     <None Include="..\..\..\..\Glacier%27s Laptop\source\repos\DirectX11\vertex_colors.hlsl">
       <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
       </EntryPointName>

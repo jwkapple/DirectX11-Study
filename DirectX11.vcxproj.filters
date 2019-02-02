@@ -64,8 +64,12 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <FxCompile Include="..\..\..\..\Glacier%27s Laptop\source\repos\DirectX11\vertex_colors.hlsl">
-      <Filter>소스 파일</Filter>
-    </FxCompile>
+    <None Include="..\..\..\..\Glacier%27s Laptop\source\repos\DirectX11\vertex_colors.hlsl" />
+    <None Include="..\..\..\..\Glacier%27s Laptop\source\repos\DirectX11\color.vs">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\..\..\Glacier%27s Laptop\source\repos\DirectX11\color.ps">
+      <Filter>리소스 파일</Filter>
+    </None>
   </ItemGroup>
 </Project>

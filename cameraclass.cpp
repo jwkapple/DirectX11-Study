@@ -100,7 +100,7 @@ void CameraClass::Render()
 
 }
 
-void CameraClass::GetViewMatrix(XMMATRIX viewMatrix)
+void CameraClass::GetViewMatrix(XMMATRIX& viewMatrix)
 {
 	viewMatrix = m_viewMatrix;
 	return ;

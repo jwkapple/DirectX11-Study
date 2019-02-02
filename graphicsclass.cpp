@@ -111,7 +111,7 @@ bool GraphicsClass::Frame()
 
 bool GraphicsClass::Render()
 {	// 씬 그리기를 시작하기 위해 버퍼의 내용을 지웁니다.
-	m_D3D->BeginScene(0.0f, 0.0f, 1.0f,1.0f);
+	m_D3D->BeginScene(0.0f, 0.0f, 0.0f,1.0f);
 	
 	// Generate the view matrix based on the camera's position.
 	m_Camera->Render();

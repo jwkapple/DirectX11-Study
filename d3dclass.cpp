@@ -352,7 +352,7 @@ bool D3DClass::Initialize(int screenWidth, int screenHeight, bool vsync, HWND hw
 
 
 	// 투영 행렬을 설정합니다.
-	fieldOfView = (float)XM_PI / 4.0f;
+	fieldOfView = XM_PI / 4.0f;
 	screenAspect = (float)screenWidth / (float)screenHeight;
 
 	// 3D 렌더링을 위한 투영 행렬을 생성합니ㅏㄷ.
@@ -468,19 +468,19 @@ ID3D11DeviceContext* D3DClass::GetDeviceContext()
 	return m_deviceContext;
 }
 
-void D3DClass::GetProjectionMatrix(XMMATRIX projectionMatrix)
+void D3DClass::GetProjectionMatrix(XMMATRIX& projectionMatrix)
 {
 	projectionMatrix = m_projectionMatrix;
 	return;
 }
 
-void D3DClass::GetWorldMatrix(XMMATRIX worldMatrix)
+void D3DClass::GetWorldMatrix(XMMATRIX& worldMatrix)
 {
 	worldMatrix = m_worldMatrix;
 	return;
 }
 
-void D3DClass::GetOrthoMatrix(XMMATRIX orthoMatrix)
+void D3DClass::GetOrthoMatrix(XMMATRIX& orthoMatrix)
 {
 	orthoMatrix = m_orthoMatrix;
 	return;
