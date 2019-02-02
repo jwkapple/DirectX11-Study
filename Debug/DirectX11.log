@@ -1,2 +1,11 @@
-﻿  modelclass.cpp
-  DirectX11.vcxproj -> C:\Users\Glacier's Laptop\source\repos\DirectX11\Debug\DirectX11.exe
+﻿  cameraclass.cpp
+  colorshaderclass.cpp
+  d3dclass.cpp
+  graphicsclass.cpp
+c:\users\glacier's laptop\source\repos\directx11\graphicsclass.cpp(28): warning C4316: 'D3DClass': 힙에 할당된 개체가 16에 맞추어져 있지 않을 수도 있습니다
+c:\users\glacier's laptop\source\repos\directx11\graphicsclass.cpp(43): warning C4316: 'CameraClass': 힙에 할당된 개체가 16에 맞추어져 있지 않을 수도 있습니다
+  main.cpp
+  modelclass.cpp
+  systemclass.cpp
+  코드를 생성하고 있습니다...
+  DirectX11.vcxproj -> C:\Users\Glacier's Laptop\Documents\DirectX11-study\tut04 HLSL,shader\Debug\DirectX11.exe
