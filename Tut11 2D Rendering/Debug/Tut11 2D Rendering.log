@@ -1,0 +1,4 @@
+﻿  graphicsclass.cpp
+c:\users\glacier's laptop\source\repos\tut11 2d rendering\graphicsclass.cpp(30): warning C4316: 'D3DClass': 힙에 할당된 개체가 16에 맞추어져 있지 않을 수도 있습니다
+c:\users\glacier's laptop\source\repos\tut11 2d rendering\graphicsclass.cpp(45): warning C4316: 'CameraClass': 힙에 할당된 개체가 16에 맞추어져 있지 않을 수도 있습니다
+  Tut11 2D Rendering.vcxproj -> C:\Users\Glacier's Laptop\source\repos\DirectX11\Debug\Tut11 2D Rendering.exe
