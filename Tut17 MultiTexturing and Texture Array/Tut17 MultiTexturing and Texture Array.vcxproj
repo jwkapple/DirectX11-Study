@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{CDCF39FE-8887-4C19-A290-387980F194C9}</ProjectGuid>
+    <RootNamespace>Tut17MultiTexturingandTextureArray</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Glacier%27s Laptop\source\repos\Tut17 MultiTexturing and Texture Array\cameraclass.h" />
+    <ClInclude Include="..\..\..\..\Glacier%27s Laptop\source\repos\Tut17 MultiTexturing and Texture Array\d3dclass.h" />
+    <ClInclude Include="..\..\..\..\Glacier%27s Laptop\source\repos\Tut17 MultiTexturing and Texture Array\ddsclass.h" />
+    <ClInclude Include="..\..\..\..\Glacier%27s Laptop\source\repos\Tut17 MultiTexturing and Texture Array\graphicsclass.h" />
+    <ClInclude Include="..\..\..\..\Glacier%27s Laptop\source\repos\Tut17 MultiTexturing and Texture Array\inputclass.h" />
+    <ClInclude Include="..\..\..\..\Glacier%27s Laptop\source\repos\Tut17 MultiTexturing and Texture Array\lightclass.h" />
+    <ClInclude Include="multishaderclass.h" />
+    <ClInclude Include="..\..\..\..\Glacier%27s Laptop\source\repos\Tut17 MultiTexturing and Texture Array\modelclasss.h" />
+    <ClInclude Include="..\..\..\..\Glacier%27s Laptop\source\repos\Tut17 MultiTexturing and Texture Array\systemclass.h" />
+    <ClInclude Include="..\..\..\..\Glacier%27s Laptop\source\repos\Tut17 MultiTexturing and Texture Array\textureclass.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Glacier%27s Laptop\source\repos\Tut17 MultiTexturing and Texture Array\cameraclass.cpp" />
+    <ClCompile Include="..\..\..\..\Glacier%27s Laptop\source\repos\Tut17 MultiTexturing and Texture Array\d3dclass.cpp" />
+    <ClCompile Include="..\..\..\..\Glacier%27s Laptop\source\repos\Tut17 MultiTexturing and Texture Array\ddsclass.cpp" />
+    <ClCompile Include="..\..\..\..\Glacier%27s Laptop\source\repos\Tut17 MultiTexturing and Texture Array\graphicsclass.cpp" />
+    <ClCompile Include="..\..\..\..\Glacier%27s Laptop\source\repos\Tut17 MultiTexturing and Texture Array\inputclass.cpp" />
+    <ClCompile Include="..\..\..\..\Glacier%27s Laptop\source\repos\Tut17 MultiTexturing and Texture Array\lightclass.cpp" />
+    <ClCompile Include="multishaderclass.cpp" />
+    <ClCompile Include="..\..\..\..\Glacier%27s Laptop\source\repos\Tut17 MultiTexturing and Texture Array\main.cpp" />
+    <ClCompile Include="..\..\..\..\Glacier%27s Laptop\source\repos\Tut17 MultiTexturing and Texture Array\modelclass.cpp" />
+    <ClCompile Include="..\..\..\..\Glacier%27s Laptop\source\repos\Tut17 MultiTexturing and Texture Array\systemclass.cpp" />
+    <ClCompile Include="..\..\..\..\Glacier%27s Laptop\source\repos\Tut17 MultiTexturing and Texture Array\textureclass.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Glacier%27s Laptop\source\repos\Tut17 MultiTexturing and Texture Array\packages.config" />
+    <None Include="..\..\..\..\Glacier%27s Laptop\source\repos\Tut17 MultiTexturing and Texture Array\vertex_light.hlsl">
+      <FileType>Document</FileType>
+    </None>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="..\DirectX11\packages\directxtk_desktop_2015.2019.2.7.1\build\native\directxtk_desktop_2015.targets" Condition="Exists('..\DirectX11\packages\directxtk_desktop_2015.2019.2.7.1\build\native\directxtk_desktop_2015.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>이 프로젝트는 이 컴퓨터에 없는 NuGet 패키지를 참조합니다. 해당 패키지를 다운로드하려면 NuGet 패키지 복원을 사용하십시오. 자세한 내용은 http://go.microsoft.com/fwlink/?LinkID=322105를 참조하십시오. 누락된 파일은 {0}입니다.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\DirectX11\packages\directxtk_desktop_2015.2019.2.7.1\build\native\directxtk_desktop_2015.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\DirectX11\packages\directxtk_desktop_2015.2019.2.7.1\build\native\directxtk_desktop_2015.targets'))" />
+  </Target>
+</Project>
