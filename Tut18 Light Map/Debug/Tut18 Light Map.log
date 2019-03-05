@@ -1,0 +1,16 @@
+﻿  cameraclass.cpp
+  d3dclass.cpp
+  ddsclass.cpp
+c:\users\glacier's laptop\source\repos\tut18 light map\ddsclass.cpp(55): warning C4154: 배열 식을 삭제했습니다. 포인터로 변환이 제공됩니다.
+  graphicsclass.cpp
+c:\users\glacier's laptop\source\repos\tut18 light map\graphicsclass.cpp(31): warning C4316: 'D3DClass': 힙에 할당된 개체가 16에 맞추어져 있지 않을 수도 있습니다
+c:\users\glacier's laptop\source\repos\tut18 light map\graphicsclass.cpp(46): warning C4316: 'CameraClass': 힙에 할당된 개체가 16에 맞추어져 있지 않을 수도 있습니다
+  inputclass.cpp
+  lightclass.cpp
+  main.cpp
+  modelclass.cpp
+  multishaderclass.cpp
+  systemclass.cpp
+  textureclass.cpp
+  코드를 생성하고 있습니다...
+  Tut18 Light Map.vcxproj -> C:\Users\Glacier's Laptop\source\repos\DirectX11\Debug\Tut18 Light Map.exe
